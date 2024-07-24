@@ -1,0 +1,21 @@
+// breakpoints
+$sm: 320px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$xxl: 1440px;
+
+:root {
+  // colors
+  --text-color: #42567a;
+  --date-color: #3877ee;
+  --prev-date: #5d5fef;
+  --next-date: #ef5da8;
+  --line-color: #e3e6ed;
+  --circle-color: #d0d5e0;
+  --bckg-color: #f4f5f9;
+
+  // disable btn colors
+  --border-color: #c8ceda;
+  --icon-color: #9ba6ba;
+}

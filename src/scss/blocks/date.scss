@@ -1,0 +1,47 @@
+@use "../variables" as *;
+
+.dates__activeDate {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72.46px;
+  letter-spacing: -3.2px;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin: 0 auto;
+  pointer-events: none;
+  padding-top: 60px;
+
+  @media (min-width: $md) {
+    font-size: 100px;
+    line-height: 110px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: $xxl) {
+    font-size: 200px;
+    line-height: 160px;
+    width: 1000px;
+    padding-top: 0;
+    display: block;
+  }
+}
+
+.dates__start-date {
+  padding-right: 22px;
+  color: var(--prev-date);
+
+  @media (min-width: $xxl) {
+    padding-right: 38px;
+  }
+}
+
+.dates__end-date {
+  padding-left: 22px;
+  color: var(--next-date);
+
+  @media (min-width: $xxl) {
+    padding-left: 38px;
+  }
+}
